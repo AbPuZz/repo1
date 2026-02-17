@@ -1,6 +1,6 @@
 services:
  web:
- image: httpd:2.4
+   image: httpd:2.4
  ports:
     - "80:80"
  volumes:
