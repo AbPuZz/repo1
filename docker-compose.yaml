@@ -4,5 +4,5 @@ services:
     ports:
       - "2222:22"
     volumes:
-      - ./data:/home/foo/upload
+      - ~/Escritorio/sftp-data:/home/isma/upload
     command: isma:1234:::upload
